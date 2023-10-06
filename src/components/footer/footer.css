@@ -1,0 +1,15 @@
+.footer-bottom{
+  background-color: var(--cardColor);
+  padding: 30px;
+  padding-top: 50px;
+  margin-top: 10px;
+}
+
+.footer-bottom span a{
+  color: var(--textColor)!important;
+}
+
+.socials{
+  color: var(--primaryColor);
+}
+

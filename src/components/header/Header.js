@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container text-center pt-5">
 
       <div className="row">
-       <div className="headings col pl-3">
+       <div className="headings col pl-3 text-light">
         <h1>Minimal</h1>
         <h1>Furniture <span><BsStars className='icon'/></span></h1>
         <h1>Collection</h1>
