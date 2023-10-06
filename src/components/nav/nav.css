@@ -4,9 +4,7 @@
 a{
   color: white!important;
 }
-.icon, button{
-  color: var(--secondaryColor);
-}
+
 li:hover{
   background-color: var(--secondaryColor);
 }
