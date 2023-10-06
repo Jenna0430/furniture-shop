@@ -11,12 +11,12 @@ import "./footer.css"
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <h1 className="secondHeading">Feather is the stress-free way
+    <div className="footer mt-5">
+      <h1 className="secondHeading text-center">Feather is the stress-free way
       <br />
       to furnish your home</h1>
 
-      <button className="button">
+      <button className="special-button center-button text-center">
         Shop furniture
       </button>
 

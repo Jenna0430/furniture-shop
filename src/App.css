@@ -26,8 +26,8 @@ p, a, h4 {
 .special-button{
   background-color: white;
   border: 2px solid var(--primaryColor);
-  border-radius: 40%;
-  padding: 12px;
+  border-radius: 170px;
+  padding: 7px;
   margin-left: 15px;
   margin-top: 10px;
 }
