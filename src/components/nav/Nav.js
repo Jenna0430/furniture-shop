@@ -1,4 +1,7 @@
 import React from 'react'
+import {FaChair} from "react-icons/fa"
+import {FiMenu} from "react-icons/fi"
+import "./nav.css"
 
 const Nav = () => {
   return (
@@ -14,7 +17,7 @@ const Nav = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon" ><FiMenu className='icon'/></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
@@ -32,7 +35,11 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        
+
+        <a class="navbar-brand" href="index.html">
+          <FaChair className='icon'/>
+          DIVANO
+        </a>
       </div>
     </nav>
     </div>
