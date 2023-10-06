@@ -4,6 +4,9 @@ import {BsTwitter} from "react-icons/bs"
 import {BiLogoLinkedin} from "react-icons/bi"
 import {BsInstagram} from "react-icons/bs"
 import {BiLogoFacebook} from "react-icons/bi"
+import {FaChair} from "react-icons/fa"
+import {AiOutlineCopyrightCircle} from "react-icons/ai"
+
 import "./footer.css"
 
 const Footer = () => {
@@ -54,9 +57,23 @@ const Footer = () => {
             <a href=""><BiLogoFacebook className='socials'/></a>
 
             <h4 className='secondHeading'>Join our newsletter</h4>
-            <small><a href="">Enter your email to join newsletter</a></small>
+            <small className='email-link'><a href="">Enter your email to join newsletter</a></small>
             <BsFillArrowRightCircleFill/>
             <hr />
+          </div>
+        </div>
+
+        <hr />
+        <div className="container">
+          <div className="row">
+            <div className="col-8">
+            <FaChair className='icon'/>
+             DIVANO
+            </div>
+
+            <div className="col-4">
+              <p><small>Copyright <AiOutlineCopyrightCircle/> 2023 Divano</small></p>
+            </div>
           </div>
         </div>
       </div>
