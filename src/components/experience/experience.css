@@ -1,0 +1,22 @@
+.experience-card{
+  background-color: var(--cardColor);
+  padding: 30px;
+}
+
+.experience-image{
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.section-icon {
+  display: inline;
+}
+.section-1-icon{
+  font-size: 2.7rem;
+  padding: 10px;
+}
+
+p, a{
+  color: var(--textColor)!important;
+}
